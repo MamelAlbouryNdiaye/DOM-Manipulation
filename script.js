@@ -1,9 +1,9 @@
 
 var menuLinks = [   /* in part 3 */
-  { text: 'about', href: '/about' },
-  { text: 'catalog', href: '/catalog' },
-  { text: 'orders', href: '/orders' },
-  { text: 'account', href: '/account' },
+    { text: 'about', href: '/about' },
+    { text: 'catalog', href: '/catalog' },
+    { text: 'orders', href: '/orders' },
+    { text: 'account', href: '/account' },
 ];
 
 
@@ -32,8 +32,8 @@ topMenuEl.style.backgroundColor = thisStyle2
 
 let a = ""
 menuLinks.forEach(link => {
-  a = document.createElement("a")
-  a.setAttribute("href", link.href)
-  a.textContent = link.text;
-  topMenuEl.appendChild(a)
+    a = document.createElement("a")
+    a.setAttribute("href", link.href)
+    a.textContent = link.text;
+    topMenuEl.appendChild(a)
 });
