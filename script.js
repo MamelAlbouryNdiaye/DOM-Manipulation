@@ -13,3 +13,9 @@ mainEl.style.backgroundColor = thisStyle
 
 mainEl.classList.add("flex-ctr")
 body.append(mainEl)
+
+/////////////** Part 2 : Creating a Menu Bar ////////////////////
+var thisStyle2 = 'var(--top-menu-bg)'
+const topMenuEl = document.getElementById("top-menu")
+topMenuEl.style.height = "100%";
+topMenuEl.style.backgroundColor = thisStyle2
